@@ -1,8 +1,3 @@
-# Uses the following gems:
-#   rubyzip
-#   bzip2-ruby
-#   aws-s3
-
 def establish_s3_connection!
   AWS::S3::Base.establish_connection!(
     access_key_id: ENV['AMAZON_ACCESS_KEY_ID'], 

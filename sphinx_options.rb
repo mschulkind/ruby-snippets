@@ -1,8 +1,5 @@
 # Intended for use with the thinking-sphinx gem. 
 #
-# Uses the following gems:
-#   ruby-units
-#
 # The SphinxOptions class makes it easier to build up the options for a sphinx
 # search over many lines of code. A SphinxOptions instance can NOT be passed
 # directly to #search, you must pass the result of calling #to_hash on the

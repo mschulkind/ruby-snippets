@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-s3 (0.6.2)
+      builder
+      mime-types
+      xml-simple
+    builder (3.0.0)
+    bzip2-ruby (0.2.7)
+    dbf (1.7.5)
+    mime-types (1.18)
+    rgeo (0.3.7)
+    rgeo-shapefile (0.2.3)
+      dbf (>= 1.7.0)
+      rgeo (>= 0.3.3)
+    rubyzip (0.9.6.1)
+    text (1.0.3)
+    trie (0.0.1)
+    tzinfo (0.3.32)
+    xml-simple (1.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-s3
+  bzip2-ruby
+  dbf
+  rgeo
+  rgeo-shapefile
+  rubyzip
+  text
+  trie
+  tzinfo

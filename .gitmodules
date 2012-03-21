@@ -1,0 +1,3 @@
+[submodule "geonames_data"]
+	path = geonames_data
+	url = https://mschulkind@github.com/mschulkind/geonames.git
